@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favouritenumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favouritenumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/my-first-contract.sol": {
-			"keccak256": "0x78e1805bd12b144e0466ba3118557a52785c7fba0210c44a0ca4f9b3c21ff650",
+			"keccak256": "0xf791c3174ce2402844e93e18ca1d48596e2007bcb6b67488e5ce28a0c3739c3c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://9546e7bdbeeedc0c0c9cfbee8b7f8b7c2d55d7d4c08f05c5d91d8bd599b96f45",
-				"dweb:/ipfs/QmctsZ7CD41ReFwWgUMaHL6usbGTUgYxntFsoHyeSqk9NX"
+				"bzz-raw://06eddcd4967d8f5b5facaf382b0efdb8aafecde8d2c7f9f13b3a5cccf0cf941f",
+				"dweb:/ipfs/QmeaEhvSNJqJE8zpGQXWfMdt6bBhXboWCH2rsmMtMHDvR6"
 			]
 		}
 	},

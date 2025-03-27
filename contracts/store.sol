@@ -5,5 +5,5 @@ contract MyFirstContract {
     uint256 public favouritenumber ; 
     function store(uint _favouritenumber) public {
    favouritenumber = _favouritenumber;
-} 
-}
+  } 
+}  

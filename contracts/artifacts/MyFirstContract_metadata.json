@@ -7,7 +7,33 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "favouritenumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -45,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/store.sol": "MyFirstContract"
+			"contracts/my-first-contract.sol": "MyFirstContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/store.sol": {
-			"keccak256": "0x5a09084ed7ab30b3d25128b455ba50089590a40bf38c39cec800ee5a8f26e219",
+		"contracts/my-first-contract.sol": {
+			"keccak256": "0x6c55e796d56a24e1f1ec78379f5ffcf940d31f045dc5bbe3decd964e270657e1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d74f6355ebaea2c03eb92584d4baedec32312b8b550e530bf49c3c6948cecea6",
-				"dweb:/ipfs/QmemcFmTq5UDdANGXSz5BsLjQGGyCAozcBve1dzRSkQbv2"
+				"bzz-raw://2d81138c0e0aa05ba08f18831ac891821d60e5d56ae6b8a2f804d7adca5746b2",
+				"dweb:/ipfs/QmXnyRSFbJqoWGDfirW3uodXgDCd2QdDJ1sd5zpzX4hLUp"
 			]
 		}
 	},

@@ -6,19 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
+				"inputs": [],
+				"name": "b2",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes2",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes2"
 					}
 				],
 				"stateMutability": "view",
@@ -26,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "length",
+				"name": "b3",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bytes3",
 						"name": "",
-						"type": "uint256"
+						"type": "bytes3"
 					}
 				],
 				"stateMutability": "view",
@@ -39,20 +33,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "popElement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "item",
-						"type": "uint256"
-					}
-				],
-				"name": "pushElement",
+				"name": "setter",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -71,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/array1.sol": "array"
+			"contracts/bytearray.sol": "array"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -85,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/array1.sol": {
-			"keccak256": "0x085b60f43124f93857ede6bcb86d5a94ef2f19cdd719f0628a93118fa396a289",
+		"contracts/bytearray.sol": {
+			"keccak256": "0x80ce21d3905f9df97f4b71edbaa06eb026409dc7794abd6f268d813eb376c36c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://de59a0dfcc064c2f64ba9e8bf1f89602ad144615cf3549dc2878655448c611a2",
-				"dweb:/ipfs/QmUbSMXEDEqVhHbLD8JRkWTXYxaC7gaFJyzNfA2JhJJ94F"
+				"bzz-raw://a0a7c9ee159c0d54296bce755d5a046125a227869346a652eadacdfc947a1c3b",
+				"dweb:/ipfs/QmWeNfpLmQxtQLsXEyUu3eAeTbyeGGQGLaf5Wy7Hdnnk99"
 			]
 		}
 	},

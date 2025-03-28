@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.29+commit.ab55807c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "age",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/purefun.sol": "purefun"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/purefun.sol": {
+			"keccak256": "0x9b04b8f813c47595d299d647cbfd7308cac69de13c2c4ba75218d680e012c48b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fba8eb1e9460093c363577a1275683bb0287ce3094f26f1662f1c1ae8761d1bc",
+				"dweb:/ipfs/Qmf5GXGu3PWUTgt3oqAGTtkpKJDDBEu4CRkC4TQYs7XUXP"
+			]
+		}
+	},
+	"version": 1
+}

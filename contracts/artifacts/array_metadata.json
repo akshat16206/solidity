@@ -25,6 +25,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "length",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -71,11 +84,11 @@
 	},
 	"sources": {
 		"contracts/array.sol": {
-			"keccak256": "0xa2b882e772019eb6e67da5b4a0ad7ae715d1df57cdedb62e7330a7f9110d26f4",
+			"keccak256": "0x970737cee767d33844a34a07dd1dfcba25af0a74f00b3f75b01a87a85cedca86",
 			"license": "MITS",
 			"urls": [
-				"bzz-raw://e1ace2f607197ab8fb75c3b71514e5609f5ce4412288099e7907ec2919e2c981",
-				"dweb:/ipfs/QmSdScYntWSdNMRmwSbM1acd1WX5yWW5XE8Zk7FPUz7xBU"
+				"bzz-raw://659411c5398346d73da5706d61a960dd42c5c5721f4337939366e31116ee78d8",
+				"dweb:/ipfs/QmVJh7pftkVA2Yfg7Jj7SM6gArmqvuZcm8tKKS8aaiDizA"
 			]
 		}
 	},

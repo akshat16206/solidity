@@ -6,4 +6,7 @@ contract array{
     function setter(uint index,uint value) public  {
         arr[index]=value;
     }
+    function length() public view returns(uint) {
+       return arr.length;
+    }
 }

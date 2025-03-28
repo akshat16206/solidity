@@ -19,62 +19,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "person",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "favouritenumber",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "person2",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "favouritenumber",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "person3",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "favouritenumber",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "person4",
+				"name": "people",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -117,7 +69,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/store2.sol": "storefavnumber"
+			"contracts/store3.sol": "storefavnumber"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -131,12 +83,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/store2.sol": {
-			"keccak256": "0x90dc1592cc1d0e9850d951afe2889b4a09d9687517fe7591604a3e067f213839",
+		"contracts/store3.sol": {
+			"keccak256": "0xf6850059de33a948fab6f636e9b5bb61a8bf13df3487060376c8d3e66151b712",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1e22280134a3555e48c0f0c9b66512eee403f7c7b4ab05e4d5df77ecaa1214af",
-				"dweb:/ipfs/QmVZrtztkYUvQw8RozTK16VYjQptDkBtT7MCaNtx7KRaMZ"
+				"bzz-raw://12358da10a255685abdbb807bd783f02474ddeaab7b38eebe0abfc97592a4cb9",
+				"dweb:/ipfs/Qmc3y84zPxZYPMQHmcrWdqPW7QRjNYC16vYhaFfDWMi6Sp"
 			]
 		}
 	},

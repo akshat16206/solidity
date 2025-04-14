@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/state1.sol": "state"
+			"contracts/state.sol": "state"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,7 +53,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/state1.sol": {
+		"contracts/state.sol": {
 			"keccak256": "0x41e30118406709bbe58a86f5bc833f3d3ef890b08412dac924461ef758f0e0c5",
 			"urls": [
 				"bzz-raw://c5c46d3c006812a500eb7256f0fc848a461317a5f5fb600377dd616ff94b6d8e",

@@ -5,8 +5,7 @@ contract identity {
    string name;
    uint age;
 
-   constructor() public 
-   {
+   constructor() public {
     name = "akshat";
     age = 19;
    }

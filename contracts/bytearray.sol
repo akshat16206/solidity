@@ -6,6 +6,6 @@ contract array{
     bytes3 public b3; //3 byte array
  function setter() public {
     b2="Ab";
-    b3 = "abc";
+    b3 = "abc";//it is immutable you cant change the value of single index. you will have to update whole array
  }
 }

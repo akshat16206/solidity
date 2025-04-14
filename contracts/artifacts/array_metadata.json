@@ -4,41 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "b2",
-				"outputs": [
-					{
-						"internalType": "bytes2",
-						"name": "",
-						"type": "bytes2"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "b3",
-				"outputs": [
-					{
-						"internalType": "bytes3",
-						"name": "",
-						"type": "bytes3"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -52,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/bytearray.sol": "array"
+			"contracts/bytearray2.sol": "array"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -66,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/bytearray.sol": {
-			"keccak256": "0x80ce21d3905f9df97f4b71edbaa06eb026409dc7794abd6f268d813eb376c36c",
+		"contracts/bytearray2.sol": {
+			"keccak256": "0x744ca15e2434da2eadee1bfe96539ed6aff0271276549faec49f72771bc1caa5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a0a7c9ee159c0d54296bce755d5a046125a227869346a652eadacdfc947a1c3b",
-				"dweb:/ipfs/QmWeNfpLmQxtQLsXEyUu3eAeTbyeGGQGLaf5Wy7Hdnnk99"
+				"bzz-raw://3b4a1029002e10b01038d322adcc56122906cba268eaa81664abb70d044f59a7",
+				"dweb:/ipfs/QmTEAFfq5sQVtWEosXAkE7LCwtV1p8soYzDMwJY2KQ7ump"
 			]
 		}
 	},
